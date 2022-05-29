@@ -3,7 +3,9 @@ use mincolors::colors;
 use std::io::Write;
 
 fn main() {
-    let text = "Hello, World!";
+    let args = std::env::args().collect::<Vec<String>>()[1..].join(" ");
+
+    let text = if args.is_empty() { "Hello, World!" } else { &args };
     let increment: u16 = 5;
     let mut hue: u16 = 0;
     let mut index: u16 = 0;
