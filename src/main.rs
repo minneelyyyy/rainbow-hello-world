@@ -1,6 +1,4 @@
 
-extern crate mincolors;
-
 use mincolors::colors;
 use std::io::Write;
 

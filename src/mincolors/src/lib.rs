@@ -21,7 +21,7 @@ pub mod colors {
         pub g: u8,
         pub b: u8
     }
-    
+
     pub struct HSV {
         pub h: u16,
         pub s: u8,
@@ -31,7 +31,7 @@ pub mod colors {
     fn radians_to_degrees(radians: f64) -> f64 {
         return radians * PI / 180.0;
     }
-    
+
     fn degrees_to_radians(degrees: f64) -> f64 {
         return degrees * 180.0 / PI;
     }
