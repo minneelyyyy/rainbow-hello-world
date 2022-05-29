@@ -4,7 +4,7 @@ use std::io::Write;
 
 fn main() {
     let text = "Hello, World!";
-    let increment: u16 = 10;
+    let increment: u16 = 5;
     let mut hue: u16 = 0;
     let mut index: u16 = 0;
 
